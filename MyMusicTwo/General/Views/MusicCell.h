@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MusicCell.h
 //  MyMusicTwo
 //
 //  Created by huchunyuan on 15/9/23.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MusicModel;
 
-@interface ViewController : UIViewController
 
+@interface MusicCell : UITableViewCell
+
+@property (nonatomic,strong) MusicModel *musicModel;
 
 @end
-
